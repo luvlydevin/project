@@ -1,0 +1,261 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 1em;
+	background: lightgray;
+	line-height: 1.4;
+
+}
+
+header{
+	background:#252525;
+	text-align: center;
+}
+
+h1{
+	color: #fff;
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: lighter;
+
+}
+
+.navigation{
+	display: none;
+}
+
+
+
+
+.main-content h2{
+	font-size: 1em;
+}
+
+.main-content p{
+	font-size: .7em;
+}
+
+.full-pitch{
+	padding:30px;
+}
+
+
+.nav a{
+	padding:15px 0;
+	display: inline-block;
+}
+
+
+.btn{
+	background: #ffa949;
+	color: #fff;
+	padding: 6px 19px;
+	border-radius: 4px;
+	margin-top: 20px;
+	display: inline-block;
+
+}
+
+
+.btn:hover
+{
+	background:gray;
+}
+
+
+
+.nav a:hover{
+	color:lightgray;
+}
+
+.cta{
+	color: #bbb;
+  background:rgba(47,47,47,0.98);
+	padding: 15px;
+}
+
+.tab-link{
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+
+.nav{
+	display: flex;
+	justify-content: center;
+	font-size: 1.1em;
+
+
+}
+
+.nav{
+	list-style: none;
+}
+
+.nav li{
+	margin-right: 15px;
+}
+
+
+
+img{
+	width: 100%;
+}
+
+
+.container{
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.col-container{
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+
+
+footer{
+	background: #fff;
+	text-align: center;
+	font-size: 2em;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+@media(min-width: 300px){
+	.container{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+
+.col{
+flex: 0 0 calc(50% - .7em)
+}
+
+}
+
+
+@media(min-width: 600px ){
+
+
+.container{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+
+.col{
+flex: 0 0 calc(33% - .7em)
+}
+
+}
+
+
+
+@media(min-width: 900px ){
+
+.navigation,
+.main-nav,
+.min-nav{
+	display: flex;
+	list-style: none;
+}
+
+.navigation{
+  justify-content: space-between;
+  background:rgba(47,47,47,0.98);
+  
+}
+
+.min-nav a,
+.main-nav a{
+	margin-right: 20px;
+	color: #bbb;
+padding: 10px;
+display: inline-block;
+transition: background .3s;
+width: 100%;
+
+}
+
+.min-nav a:hover,
+.main-nav a:hover{
+	background: gray;
+}
+
+
+.container{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+
+.col{
+flex: 0 0 calc(25% - .7em)
+}
+
+}
+
+
+
+@media(min-width: 1150px ){
+
+
+.container{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+
+.col{
+flex: 0 0 calc(17% - .9em)
+}
+
+}
+
+
