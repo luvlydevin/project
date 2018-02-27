@@ -1,11 +1,7 @@
 
-
-
-
 *{
 	box-sizing: border-box;
 }
-
 
 body{
 	font-size: 1em;
@@ -13,9 +9,6 @@ body{
 	line-height: 1.4;
 
 }
-
-
-
 
 header{
 	background:#252525;
